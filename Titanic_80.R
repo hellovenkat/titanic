@@ -2,7 +2,6 @@ train_data <- read.csv('/home/venkat/Desktop/train.csv')
 test_data <- read.csv('/home/venkat/Desktop/test.csv')
 dim(train_data)
 dim(test_data)
-dim(test_data)
 train_data$Cabin <- NULL
 test_data$Cabin <- NULL
 train_data$Ticket <- NULL
